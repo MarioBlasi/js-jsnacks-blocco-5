@@ -1,4 +1,4 @@
-/*Crea un array di 10 oggetti che rappresentano una zucchina, 
+/*Crea un array di 10 oggetti che rappresentano una zucchina,
 indicando per ognuna varietà, peso e lunghezza. Calcola quanto pesano tutte le zucchine*/
 
 // creiamo un array vuoto dove inseriremo le zucchine
@@ -28,3 +28,13 @@ for (let zucchina of zucchine) {
 
 // stampiamo il peso totale delle zucchine
 console.log("Il peso totale delle zucchine è " + pesoTotale + " grammi");
+
+/*Scrivi una funzione che accetti tre argomenti:
+un array e due numeri ("a" più piccolo di "b" e "b" grande al massimo quanto il numero di elementi dell'array).
+La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra "a" e "b"*/
+
+function otteniamoValori(array, a, b) {
+  if (a >= b || b > array.length) {
+    alert("i valori non sono validi");
+  }
+}
