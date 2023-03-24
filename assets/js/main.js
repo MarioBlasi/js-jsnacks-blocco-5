@@ -34,7 +34,8 @@ un array e due numeri ("a" più piccolo di "b" e "b" grande al massimo quanto il
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra "a" e "b"*/
 
 function otteniamoValori(array, a, b) {
-  if (a >= b || b > array.length) {
-    alert("i valori non sono validi");
+  if (a < b || b >= array.length) {
   }
 }
+
+console.log(otteniamoValori);
